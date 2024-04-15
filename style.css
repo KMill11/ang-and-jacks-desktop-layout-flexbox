@@ -1,7 +1,7 @@
 .header {
 	width: 100%;
 	height: 83px;
-	background-color: red;
+	background-color: black;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -9,33 +9,58 @@
 
 	.logo {
 		align-content: left;
-		background-color: blue;
+		background-color: black;
 		width: 21%;
 		height: 83px;
+		padding-left: 40px;
 	}
 
 	.navbar {
 		width: 27%;
 		height: 83px;
-		background-color: purple;
+		background-color: black;
+		justify-content: space-between;
+		align-content: center;
+		padding-left: 20px;
 	}
 
 .banner {
 	width: 100%;
 	height: 912px;
 	background-image: url(images/herobanner.jpg);
+	background-position: 50%, 50%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	background-position: 50% 50%;
 }
 
 	.bannerbox {
 		width: 33.33%;
 		height: 912px;
-		background-color: orange;
+		background-color:;
+		display: flex;
+		flex-direction:column;
+		background-color:;
 
 	}
+
+	.bannerbox-top {
+		width: 100%;
+		height: 30px;
+		text-align: center;
+		background-color:;
+
+	}
+
+	.bannerbox-bottom {
+		width: 100%;
+		height: 882px;
+		text-align: center;
+		background-color: ;
+		align-content: center;
+		text-align: center;
+	}
+
 
 .mainarea {
 	width: 100%;
@@ -77,3 +102,59 @@
 
 }
 
+.button {
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 15px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+/* basic button design from online */
+
+
+
+.basic-button {
+  font-family: "Basic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: black;
+}
+
+.basic-regular {
+  font-family: "Basic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.babylonica-regular {
+  font-family: "Babylonica", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.babylonica-banner {
+  font-family: "Babylonica", cursive;
+  font-weight: 400;
+  font-size: 96px;
+  color: white;
+  font-style: normal;
+}
+
+.basic-banner {
+  font-family: "Basic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 24px;
+}
+
+.babylonica-logo {
+  font-family: "Babylonica", cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: white;
+  font-style: normal;
+}
