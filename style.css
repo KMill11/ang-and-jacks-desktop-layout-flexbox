@@ -137,6 +137,17 @@
   text-decoration: none;
   display: inline-block;
 }
+
+
+a{
+	color:white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+
+}
 /* basic button design from online */
 
 .buttonspecial {
