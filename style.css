@@ -142,7 +142,7 @@
 .buttonspecial {
   background-color: white;
   border: none;
-  color: white;
+  color: black;
   padding: 15px 28px;
   text-align: center;
   text-decoration: none;
@@ -155,7 +155,7 @@
 	margin-bottom: 50px;
 }
 
-
+/* fonts */
 
 .basic-button {
   font-family: "Basic", sans-serif;
@@ -216,6 +216,14 @@ color: white;
 
 }
 
+.lexend-zetta-menutitle{
+font-family: "lexend zetta", sans-serif;
+font-weight: 400;
+font-size: 40px;
+color: white;
+
+}
+
 .lexend-zetta-footer {
 font-family: "lexend zetta", sans-serif;
 font-weight: 400;
@@ -235,3 +243,84 @@ color: white;
 	 mask-image: linear-gradient( black, transparent);
 
 }
+
+/* menu page */
+
+
+.appetizerbox {
+	height: 742px;
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	flex-direction: row;
+	justify-content: center;
+	background-color: black;
+}
+
+.appetizercontainer {
+	height: 622px;
+	width: 59%;
+	background-color: #3C0D07;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 515px;
+}
+
+.appetizerimage {
+	position:absolute;
+    height: 420px;
+    width: 43%;
+    background-color: blue;
+    left: 200px;
+    top: 320px;
+}
+
+.appetizerimage img { height: 100%; width: 100% }
+
+.potsticker {
+	width: 100%;
+	display: none;
+/*	display: block;*/
+}
+
+
+
+.appetizerspace {
+	width: 33%;
+	height: 622px;
+	background-color:#3C0D07;
+}
+
+.appetizertext {
+	height: 622px;
+	width: 67%;
+	background-color: #3C0D07;
+	text-align: center;
+	line-height: 3rem;
+
+}
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+	.potsticker {
+		display: block;
+
+	}
+
+	.appetizerimage {
+		display: none;
+	}
+
+	.appetizercontainer {
+		display: none;
+	}
+
+}
+
+@media sceen and (min-width: 480px) {
+}
+
+
+/* media queries display block on mobile display none on desktop*/
+/* on mobile set display none for  */
